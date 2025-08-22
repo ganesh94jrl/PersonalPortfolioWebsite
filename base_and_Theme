@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ganesh Kuppasta — Portfolio</title>
+  <meta name="description" content="Pure HTML & CSS responsive portfolio for Ganesh Kuppasta" />
+  <style>
+    /* --------------------
+       Base + Theme
+    -------------------- */
+    :root{
+      --bg: #0b0d12;
+      --panel: #131722;
+      --ink: #e9eef5;
+      --sub: #a5b1c5;
+      --brand: #6ea8fe;
+      --brand-2:#b091ff;
+      --accent: #7ee787;
+      --danger:#ff6b6b;
+      --muted: #222738;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --maxw: 1100px;
+    }
+
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #f7f8fb;
+        --panel: #ffffff;
+        --ink: #0f1320;
+        --sub: #3e4b63;
+        --brand: #2f6df6;
+        --brand-2:#7a4bff;
+        --accent: #0a9150;
+        --muted: #e9eef5;
+        --shadow: 0 10px 25px rgba(31, 56, 106, .12);
+      }
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--ink); background: radial-gradient(1200px 800px at 80% -20%, rgba(110,168,254,.18), transparent 60%),
+                              radial-gradient(1200px 800px at -20% 10%, rgba(176,145,255,.18), transparent 60%),
+                              var(--bg);
+    }
