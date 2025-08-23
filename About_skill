@@ -1,0 +1,10 @@
+:is(section, footer){scroll-margin-top:90px}
+    .about{display:grid; grid-template-columns: 1fr 1fr; gap:26px}
+    .about .bio{padding:24px}
+    .about .facts{padding:24px}
+
+    .skillbar{height:10px; background:var(--muted); border-radius:999px; position:relative; overflow:hidden; margin-top:8px}
+    .skillbar > span{position:absolute; inset:0; width:var(--val); background:linear-gradient(90deg, var(--brand), var(--brand-2)); border-radius:999px}
+
+    .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:8px}
+    .chip{padding:.38rem .65rem; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.08); border-radius:999px; font-size:.9rem}
