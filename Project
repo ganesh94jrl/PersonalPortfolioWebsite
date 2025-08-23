@@ -1,0 +1,5 @@
+.projects-grid{display:grid; grid-template-columns: repeat(3, 1fr); gap:18px}
+    .project-card{display:flex; flex-direction:column; overflow:hidden}
+    .project-thumb{aspect-ratio: 16/10; background:linear-gradient(135deg, rgba(110,168,254,.3), rgba(176,145,255,.3)); border-bottom:1px solid rgba(255,255,255,.06)}
+    .project-body{padding:18px}
+    .project-meta{display:flex; gap:8px; flex-wrap:wrap; margin-top:6px}
