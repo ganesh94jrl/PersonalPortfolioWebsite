@@ -1,0 +1,97 @@
+ <!-- About + Skills -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="muted">Passionate about building delightful experiences. Comfortable with C, C++, Python, and web fundamentals. I also enjoy cricket and meditation.</p>
+        <div class="about" style="margin-top:18px">
+          <div class="bio card">
+            <div class="content" style="max-width:64ch">
+              <h3>Background</h3>
+              <p>I’m a final-year student with hands-on projects like <em>Gas Leakage Detection (IoT)</em> and <em>CI Evaluation System</em>. I focus on clean, semantic HTML and modern CSS (Flexbox/Grid) to craft responsive layouts.</p>
+              <div class="chips" aria-label="Core skills">
+                <span class="chip">HTML5</span>
+                <span class="chip">CSS3</span>
+                <span class="chip">Responsive Design</span>
+                <span class="chip">Accessibility</span>
+                <span class="chip">Git & GitHub</span>
+              </div>
+            </div>
+          </div>
+          <div class="facts card">
+            <h3>Skills (Self-Assessment)</h3>
+            <div class="field">
+              <label for="s-html">HTML</label>
+              <div class="skillbar" id="s-html" style="--val: 90%"><span aria-hidden="true"></span></div>
+              <small class="muted">90%</small>
+            </div>
+            <div class="field">
+              <label for="s-css">CSS</label>
+              <div class="skillbar" id="s-css" style="--val: 80%"><span aria-hidden="true"></span></div>
+              <small class="muted">80%</small>
+            </div>
+            <div class="field">
+              <label for="s-access">Accessibility</label>
+              <div class="skillbar" id="s-access" style="--val: 70%"><span aria-hidden="true"></span></div>
+              <small class="muted">70%</small>
+            </div>
+            <div class="field">
+              <label for="s-git">Git / GitHub</label>
+              <div class="skillbar" id="s-git" style="--val: 75%"><span aria-hidden="true"></span></div>
+              <small class="muted">75%</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">A selection of projects. Replace these with your real work and GitHub links.</p>
+
+        <div class="projects-grid" style="margin-top:18px">
+          <!-- Card 1 -->
+          <article class="project-card card">
+            <div class="project-thumb" role="img" aria-label="Project thumbnail"></div>
+            <div class="project-body">
+              <h3>Gas Leakage Detection (IoT)</h3>
+              <p class="muted">A safety system using gas sensors and alarms to detect leaks. I led hardware integration and UX for alerts.</p>
+              <div class="project-meta">
+                <span class="chip">IoT</span>
+                <span class="chip">Hardware</span>
+                <span class="chip">UX</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="project-card card">
+            <div class="project-thumb" role="img" aria-label="Project thumbnail"></div>
+            <div class="project-body">
+              <h3>CI Evaluation System</h3>
+              <p class="muted">A C-language project to assess course outcomes. Emphasis on clean UI and understandable layouts.</p>
+              <div class="project-meta">
+                <span class="chip">C</span>
+                <span class="chip">Education</span>
+                <span class="chip">UI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="project-card card">
+            <div class="project-thumb" role="img" aria-label="Project thumbnail"></div>
+            <div class="project-body">
+              <h3>Portfolio (This Site)</h3>
+              <p class="muted">Built with only HTML & CSS. Responsive, accessible, and easy to maintain.</p>
+              <div class="project-meta">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">Responsive</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
