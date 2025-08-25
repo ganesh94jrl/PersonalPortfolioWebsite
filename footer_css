@@ -1,0 +1,12 @@
+<footer>
+    <div class="container footer-wrap">
+      <p class="muted">© <span id="year">2025</span> Ganesh Kuppasta — Built with ❤️ using pure HTML & CSS</p>
+      <div class="chips" aria-label="social links">
+        <a class="chip" href="#" aria-label="GitHub profile">GitHub</a>
+        <a class="chip" href="#" aria-label="LinkedIn profile">LinkedIn</a>
+        <a class="chip" href="#" aria-label="Download Resume">Resume</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
