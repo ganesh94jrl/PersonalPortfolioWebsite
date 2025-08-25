@@ -1,0 +1,27 @@
+<section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="muted">Interested in working together or just want to say hi? Drop a message.</p>
+        <div class="card" style="padding:22px; margin-top:12px">
+          <form aria-label="Contact form" method="post" action="#">
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input id="name" name="name" type="text" placeholder="Enter your name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+            </div>
+            <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:flex-start">
+              <button class="btn" type="submit">Send Message</button>
+              <a class="btn secondary" href="#home" aria-label="Back to top">Back to top</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
